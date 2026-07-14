@@ -8,6 +8,8 @@ public class Main {
         for (int i = 0; i <= end; i++) {
             if (arr[i] == n) {
                 System.out.println("Found at index: " + i);
+            } else {
+              System.out.println("404 Not found");
             }
         }
     }
